@@ -13,8 +13,6 @@ from optparse import OptionParser
 CONFIG_FILE='custom.cfg'
 
 def config_read():
-  if not os.path.exists(CONFIG_FILE):
-    config_init()
   config = ConfigParser.ConfigParser()
   config.read(CONFIG_FILE)
   return config
