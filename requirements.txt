@@ -1,1 +1,3 @@
 requests
+pandoc
+pylint
