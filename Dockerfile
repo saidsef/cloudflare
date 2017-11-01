@@ -1,11 +1,9 @@
-FROM ubuntu:14.04
-MAINTAINER Said Sef
+FROM python:2.7-alpine
+MAINTAINER Said Sef <said@saidsef.co.uk> (http://saidsef.co.uk/)
 
 WORKDIR /opt/cloudflare
 
-RUN apt-get update
-RUN apt-get install -yq make autoconf python-pip
-
 COPY . /opt/cloudflare
 
-RUN pip install -v -r requirements.txt
+RUN apk --update add make autoconf
+RUN pip install -r requirements.txt
