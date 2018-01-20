@@ -8,7 +8,7 @@ import requests as r
 import ConfigParser
 from optparse import OptionParser
 
-CONFIG_FILE='custom.cfg'
+CONFIG_FILE='./custom.cfg'
 
 def config_read():
   config = ConfigParser.ConfigParser()
