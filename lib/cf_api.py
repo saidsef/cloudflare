@@ -3,22 +3,14 @@
 
 __author__ = 'Said Sef'
 
+import os
 import json
 import requests as r
 import ConfigParser
 from optparse import OptionParser
 
-CONFIG_FILE='./custom.cfg'
-
-def config_read():
-  config = ConfigParser.ConfigParser()
-  config.read(CONFIG_FILE)
-  return config
-
-config = config_read()
-
-tkn   = config.get('cloudflare','tkn')
-email = config.get('cloudflare','email')
+tkn   = os.environ.get("tkn", None)
+email = os.environ.get("email", None)
 
 parser = OptionParser()
 parser.add_option("-s", "--site", dest="site", help="site name - abc.com", metavar="SITE")
@@ -30,6 +22,8 @@ if not options.site:
   parser.error('Site name not given')
 if not options.task:
   parser.error('Task name not given')
+if tkn in None or email is None:
+  parser.error('tkn and/or email has not been set')
 
 site = options.site
 task = options.task
@@ -43,7 +37,7 @@ params = {
   'tkn': tkn,
   'email': email,
   'z': site
-  }
+}
 
 if "all" in task:
   params.update({'a':'rec_load_all'})
