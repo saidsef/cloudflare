@@ -10,3 +10,5 @@ RUN pip install -r requirements.txt
 RUN cd lib/ && pyflakes .
 
 VOLUME ["/opt/cloudflare/custom.cfg"]
+
+ENTRYPOINT ["/opt/cloudflare/cf_api.py"]
