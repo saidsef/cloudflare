@@ -16,6 +16,4 @@ RUN cd lib/ && pyflakes .
 # Cleanup
 RUN rm -rf /var/cache/apk/* && rm -rf ~/.cache/
 
-VOLUME ["/opt/cloudflare/lib/custom.cfg"]
-
 ENTRYPOINT ["/opt/cloudflare/lib/cf_api.py"]
