@@ -3,10 +3,8 @@
 
 __author__ = 'Said Sef'
 
-import requests as r
 import json
-import time
-import os
+import requests as r
 import ConfigParser
 from optparse import OptionParser
 
