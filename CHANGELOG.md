@@ -1,5 +1,10 @@
 # Change Log
 
+ - 2018-01-20 01:42:14 +0000 [1437fc6](https://github.com/saidsef/cloudflare/commit/1437fc6916267198ab6a9ca07ddd534c93c39462) fixed pyflakes error - removed unused import libs
+ - 2018-01-20 01:41:55 +0000 [6b605d5](https://github.com/saidsef/cloudflare/commit/6b605d560a89a18e836b52e1c28ca07148e9ee82) fixed pyflakes error - removed unused import
+ - 2018-01-20 01:41:14 +0000 [80ddf7e](https://github.com/saidsef/cloudflare/commit/80ddf7ebca6cea18907ee1ad439141baf88e3bc2) added container entrypoint
+ - 2018-01-20 01:31:59 +0000 [e6fdcd5](https://github.com/saidsef/cloudflare/commit/e6fdcd538e0af578532721b5febfc86861d6ab11) added container volume for CF configs
+ - 2018-01-20 01:18:54 +0000 [e84b8c4](https://github.com/saidsef/cloudflare/commit/e84b8c40f5cc1fd3bbd5d7d079b3aa7a85b356da) updated changes to reflect changes
  - 2018-01-20 01:17:56 +0000 [29be769](https://github.com/saidsef/cloudflare/commit/29be7697a1bcfaefa694372d21f40dd572b95f12) added pyflakes to requirements
  - 2018-01-20 01:17:35 +0000 [2366369](https://github.com/saidsef/cloudflare/commit/236636959c52c0e138dab29d8f6debec6ea3c21f) updated base container and added pyflakes test
  - 2017-11-01 23:31:31 +0000 [acca6a4](https://github.com/saidsef/cloudflare/commit/acca6a46bef78bc27e705f201669b5675129a916) docker ignore file
