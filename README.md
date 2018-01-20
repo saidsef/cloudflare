@@ -15,7 +15,6 @@ pip install -r requirements.txt
 Update configurations with CloudFlare `tkn` and `email` address:
 
 ```
-[cloudflare]
 tkn = <cloudflare-token>
 email = <email-address>
 ```

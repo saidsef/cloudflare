@@ -1,5 +1,6 @@
 # Change Log
 
+ - 2018-01-20 03:14:44 +0000 [e3f857e](https://github.com/saidsef/cloudflare/commit/e3f857eb6df34e9c676a7cdce939488f31b2b75e) updated change log
  - 2018-01-20 03:13:15 +0000 [47d2939](https://github.com/saidsef/cloudflare/commit/47d2939bbb6e8666238577e028acd044fb1af176) updated read me to execute script via container
  - 2018-01-20 02:59:33 +0000 [d50494e](https://github.com/saidsef/cloudflare/commit/d50494e7b1da2ea39797efc2ca297535e903c3f3) added docker build args for tkn and email
  - 2018-01-20 02:57:55 +0000 [b1fae0d](https://github.com/saidsef/cloudflare/commit/b1fae0db9cf024320942f1268f91ab0e74bc5107) removed ConfigParser from lib import
