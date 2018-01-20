@@ -21,7 +21,7 @@ if not options.site:
   parser.error('Site name not given')
 if not options.task:
   parser.error('Task name not given')
-if tkn in None or email is None:
+if tkn is None or email is None:
   parser.error('tkn and/or email has not been set')
 
 site = options.site
