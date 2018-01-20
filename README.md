@@ -25,7 +25,7 @@ email = <email-address>
 See help section:
 
 ```shell
-./cf_api.py -h
+docker run -e "tkn=<token>" -e "email=<email>" saidsef/cloudflare -h
 
 Options:
   -h, --help            show this help message and exit
@@ -36,5 +36,5 @@ Options:
 ```
 
 ```shell
-./cf_api.py -s abc.com -t purge -u /this-is-a-url
+docker run -e "tkn=<token>" -e "email=<email>" saidsef/cloudflare -s abc.com -t purge -u /this-is-a-url
 ```
