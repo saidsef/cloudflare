@@ -1,5 +1,13 @@
 # Change Log
 
+ - 2018-01-20 03:13:15 +0000 [47d2939](https://github.com/saidsef/cloudflare/commit/47d2939bbb6e8666238577e028acd044fb1af176) updated read me to execute script via container
+ - 2018-01-20 02:59:33 +0000 [d50494e](https://github.com/saidsef/cloudflare/commit/d50494e7b1da2ea39797efc2ca297535e903c3f3) added docker build args for tkn and email
+ - 2018-01-20 02:57:55 +0000 [b1fae0d](https://github.com/saidsef/cloudflare/commit/b1fae0db9cf024320942f1268f91ab0e74bc5107) removed ConfigParser from lib import
+ - 2018-01-20 02:57:09 +0000 [1e58ee4](https://github.com/saidsef/cloudflare/commit/1e58ee413a12f9a05e549d3fa6db5cd401e13f1b) replaced ConfigParser with os.environ
+ - 2018-01-20 02:40:08 +0000 [0530574](https://github.com/saidsef/cloudflare/commit/0530574b23045c1b39688ac03fac632c490bc35b) updated cfg location to relative
+ - 2018-01-20 02:31:13 +0000 [26903a5](https://github.com/saidsef/cloudflare/commit/26903a5accf34d13cc574d3156d93bb23d548afe) removed volume mount
+ - 2018-01-20 02:05:00 +0000 [bca4f2b](https://github.com/saidsef/cloudflare/commit/bca4f2b24a6ee5095c55c2a2a100d89ab3ba771a) bugfix: fixed cli and cfg locations and added cleanup
+ - 2018-01-20 01:42:51 +0000 [1a98837](https://github.com/saidsef/cloudflare/commit/1a98837e7e583acd9446b6ba714dd711bbf7c151) updated changed log
  - 2018-01-20 01:42:14 +0000 [1437fc6](https://github.com/saidsef/cloudflare/commit/1437fc6916267198ab6a9ca07ddd534c93c39462) fixed pyflakes error - removed unused import libs
  - 2018-01-20 01:41:55 +0000 [6b605d5](https://github.com/saidsef/cloudflare/commit/6b605d560a89a18e836b52e1c28ca07148e9ee82) fixed pyflakes error - removed unused import
  - 2018-01-20 01:41:14 +0000 [80ddf7e](https://github.com/saidsef/cloudflare/commit/80ddf7ebca6cea18907ee1ad439141baf88e3bc2) added container entrypoint
