@@ -4,7 +4,12 @@ MAINTAINER Said Sef <said@saidsef.co.uk> (http://saidsef.co.uk/)
 LABEL version="2.0"
 LABEL description="Containerised Cloudflare CLI"
 
+ARG tkn=""
+ARG email=""
+
 ENV HOME /tmp
+ENV tkn ${tkn:-''}
+ENV email ${email:-''}
 
 WORKDIR /opt/cloudflare
 
