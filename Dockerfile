@@ -5,7 +5,8 @@ WORKDIR /opt/cloudflare
 
 COPY . /opt/cloudflare
 
-RUN apk --update add make autoconf && \
-    pip install -r requirements.txt &&\
-    cd lib/ && \
-    pyflakes .
+RUN apk --update add make autoconf
+RUN pip install -r requirements.txt
+RUN cd lib/ && pyflakes .
+
+VOLUME ["/opt/cloudflare/custom.cfg"]
