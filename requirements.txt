@@ -1,3 +1,4 @@
 requests
-#pandoc
+pandoc
+pyflakes
 pylint
