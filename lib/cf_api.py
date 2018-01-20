@@ -6,7 +6,6 @@ __author__ = 'Said Sef'
 import os
 import json
 import requests as r
-import ConfigParser
 from optparse import OptionParser
 
 tkn   = os.environ.get("tkn", None)
